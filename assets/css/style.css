@@ -1,10 +1,12 @@
 .container
 	{
 		position: absolute;
+		/*position: relative;*/
+		/*position: fixed;*/
 		top: 0;
 		left: 0;
 		width: 1355px;
-		height: 100%;
+		/*height: 100%;*/
 		background-image: url("wov.png");
 	}
 
@@ -46,6 +48,7 @@ a
 
 .main
 	{
+		/*top: 18.5%;*/
 		top: 130px;
 		width: 590px;
 		margin-left: 156px;
@@ -54,8 +57,14 @@ a
 		border: 1px solid #dddddd;
 		position: relative;
 		background-color: #ffffff;
+		padding-bottom: 2%;
+		margin-bottom: 12.5%;
 	}
 
+#submit
+	{
+		background-color: #4aaaa5;
+	}
 #line
 	{
 		padding-bottom: 20px;
@@ -82,6 +91,7 @@ p
 
 .sidebar
 	{	
+		clear: both;
 		width: 210px;
 		padding-right: 30px;
 		padding-left: 30px;
@@ -90,6 +100,7 @@ p
 		text-align: center;
 		position: absolute;
 		top: 130px;
+		/*top: 18.5%;*/
 		left: 855px;
 		background-color: #ffffff;
 	}
@@ -102,7 +113,13 @@ p
 
 .footer
 	{	
-		position: fixed;
+		/*position: fixed;*/
+		clear: both;
+		/*position: absolute;*/
+		position: relative;
+		/*overflow: scroll;*/
+		/*display: inline-block;*/
+		/*display: block;*/
 		bottom: 0;
 		width: 1355px;
 		height: 95px;
