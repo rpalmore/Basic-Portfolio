@@ -26,10 +26,10 @@ a:hover
 		position: absolute;
 		top: 0;
 		margin-left: 156px;
-		width: 270px;
 		height: 65px;
-		padding-left: 30px;
 		padding-top: 25px;
+		padding-right: 30px;
+		padding-left: 30px;
 		background: #4aaaa5;
 		color: #ffffff;
 		font-size: 32px;
